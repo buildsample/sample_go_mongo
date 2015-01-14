@@ -6,7 +6,7 @@ go:
 # Mongo binds to 127.0.0.1 by default
 services:
   - mongodb
-build_image: shippable/minv2:beta
+#build_image: shippable/minv2:beta
 
 
 # Installs tool used for code coverage report
