@@ -34,7 +34,7 @@ script:
   - go test -coverprofile=coverage.txt -covermode count github.com/OneRedOak/sample
   - gocover-cobertura < coverage.txt > coverage.xml
 
-archive: true
+
 
 after_script:
   - mv $PWD/src/github.com/OneRedOak/sample/junit.xml $PWD/shippable/testresults/
