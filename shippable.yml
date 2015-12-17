@@ -1,6 +1,4 @@
 language: go
-
-
 go:
   - 1.2
   
@@ -8,7 +6,7 @@ go:
 services:
   - mongodb
 
-build_image: shippable/minv2
+#build_image: shippable/minv2
 #:beta
 
 
