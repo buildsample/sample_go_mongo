@@ -6,7 +6,7 @@ go:
 services:
   - mongodb
 
-#build_image: shippable/minv2
+build_image: drydock/u12golpls:tip
 #:beta
 
 
