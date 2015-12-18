@@ -10,7 +10,7 @@ go:
 services:
   - mongodb
 
-build_image: drydock/u12golpls:tip
+build_image: drydock/u14golall:tip
 #:beta
 
 
