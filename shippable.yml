@@ -6,7 +6,7 @@ go:
 services:
   - mongodb
 
-build_image: drydock/u12gol:tip
+build_image: drydock/u12gol:prod
 #:beta
 
 
