@@ -8,8 +8,6 @@ services:
 
 #build_image: shippable/minv2
 #:beta
-
-
 # Installs tool used for code coverage report
 install:
   - sudo apt-get update 
